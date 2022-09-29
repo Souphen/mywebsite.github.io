@@ -1,0 +1,398 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.border {
+   width: 100%;
+  float: left;
+}
+.container{
+   width: 100%;
+   float: left;
+}
+
+.right__header {
+   width: 20%;
+   position: sticky;
+   background-color: rgba(185, 178, 178, 0.296);
+   top:0;
+   left: 0;
+   bottom: 0;
+   height: 100vh;
+   float: left;
+}
+
+.img__title {
+   width: 90%;
+   margin: auto;
+}
+
+.img__title img {
+   width: 50px;
+   float: left;
+   margin-left: 30px;
+
+
+}
+
+.img__title p {
+   position: relative;
+   margin-top: 40px;
+   left: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img__title h1 {
+   position: relative;
+   left: 10px;
+   top: 5px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.contener__right{
+   width: 80%;
+   float: right;
+   padding-top: 50px ;
+   background-color: #ffff;
+}
+
+.icon {
+   width: 80%;
+   text-align: center;
+}
+
+.icon input {
+   margin-top: 30px;
+   width: 90%;
+   height: 30px ;
+   padding-left:10px ;
+   border-radius: 5px;
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(255, 255, 255);
+}
+
+.icon a {
+   display: block;
+   margin-top: 18px;
+   font-size: 17px;
+   font-family: 'Battambang';
+   text-decoration: none;
+   color: rgb(26, 20, 20);
+   font-weight: 10px;
+
+}
+
+.icon #a1 {
+   background-color: red;
+   border-radius: 5px;
+   padding: 2px;
+   transition: 0.4s;
+}
+
+a:hover {
+   background-color: rgba(86, 85, 85, 0.326);
+   border-radius: 5px;
+}
+
+.contener__right p {
+   margin-top: 18px;
+   padding-left: 20px;
+   font-size: 20px;
+   font-family: 'Battambang';
+}
+
+.contener__right h1 {
+   padding-left: 20px;
+   font-size: 30px;
+   font-family: 'Battambang';
+}
+
+.box__img {
+   width: 95%;
+   height: 500px;
+   border-radius: 20px;
+   margin: auto;
+   background-image: url(https://business-cambodia.com/cms/assets/89ea4351-aa0a-4caf-a37c-be8f2d4ea4be);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.title__box {
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   margin: auto;
+   background-color: rgba(0, 0, 0, 0.401);
+   color: #ffff;
+
+}
+
+.title {
+   width: 90%;
+   position: relative;
+   top: 200px;
+   margin-left: 30px;
+}
+
+.title p {
+   color: #fff;
+}
+
+.title h1 {
+   font-weight: bolder;
+}
+
+.item2 {
+   width: 95%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.item2 .item-1 {
+   width: 350px;
+   height: 350px;
+   margin-top: 20px;
+   border-radius: 10px;
+   background-image: url(https://business-cambodia.com/cms/assets/d5f3dcac-36a3-4cc2-9c4c-d64add240800);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.item2 .item-1 p {
+   font-family: 'Battambang';
+}
+
+.item3 {
+   width: 100%;
+   height: 400px;
+   margin: auto;
+
+}
+
+.all_item {
+   margin: auto;
+   width: 95%;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.item-2 {
+   width: 330px;
+   height: 310px;
+   border-radius: 10px;
+   float: left;
+   background-color:#fff;
+   box-shadow:1px 0px 40px rgba(1, 1, 1, 0.296);
+   transition-duration: 0.5s ;
+
+
+}
+.item-2:hover{
+   width: 340px;
+   height: 330px;
+   transform: scale3d(3,3);
+   box-shadow:1px 0px 40px rgba(1, 1, 1, 0.296);
+}
+.item-3:hover{
+   width: 340px;
+   height: 330px;
+   transform: scale3d(3,3);
+   box-shadow:1px 0px 40px rgba(1, 1, 1, 0.296);
+}
+.item-4:hover{
+   width: 340px;
+   height: 330px;
+   transform: scale3d(3,3);
+   box-shadow:1px 0px 40px rgba(1, 1, 1, 0.296);
+}
+.item-2 p{
+   color: red;
+   font-size: 15px ;
+}
+.item-2 h2{
+   display: block;
+   color: black;
+   font-size: 18px ;
+   overflow: hidden;
+   word-wrap: break-word;
+   font-family: "Roboto","Hanuman";
+   margin-left: 8px;
+   float: left;
+}
+i{
+  position:relative;
+  left: 90%;
+}
+.item-3 p{
+   color: red;
+   font-size: 15px ;
+}
+.item-3 h2{
+   color: black;
+   font-size: 18px ;
+   overflow: hidden;
+   font-family: "Roboto","Hanuman";
+   margin-left: 8px;
+   float: left;
+   
+}
+
+.item-4 p{
+   color: red;
+   font-size: 15px ;
+}
+.item-4 h2{
+   color: black;
+   font-size: 18px ;
+   overflow: hidden;
+   font-family: "Roboto","Hanuman";
+   margin-left: 8px;
+   float: left;
+}
+.item-3 {
+   width: 330px;
+   height: 310px;
+   border-radius: 10px;
+   background-color:#fff;
+   box-shadow:1px 0px 40px rgba(1, 1, 1, 0.296);
+   transition-duration: 0.5s ;
+}
+
+.item-4 {
+   width: 330px;
+   height: 310px;
+   border-radius: 10px;
+   background-color:#fff;
+   box-shadow:1px 0px 40px rgba(1, 1, 1, 0.296);
+   transition-duration: 0.5s ;
+}
+ img{
+   position: relative;
+   width: 100%;
+   height: 50%;
+   background-size:cover;
+   background-repeat: no-repeat;
+   border-top-left-radius:10px;
+   border-top-right-radius:10px;
+}
+
+
+.footer-box{
+   width:100%;
+   float: left;
+
+}
+.footer1{
+   width:100%;
+   height: 400px ;
+   background-image:url(../image/Angkor-Wat-temple-complex-Camb.webp);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;
+
+}
+.blur{
+   width:100%;
+   height:100%;
+   background-color:rgba(0, 0, 0, 0.26);
+   border: 1px solid ;
+
+}
+.title_contener{
+   width: 40%;
+   height: 100%;
+   margin: auto;
+   text-align: center;
+   
+ 
+}
+.title__con{
+   width: 100%;
+   margin-top: 80px ;
+}
+.title_contener img{
+   width: 160px ;
+   height: 160px;
+   line-height: 100%;
+
+}
+.title_contener h1{
+   color: #fff;
+
+}
+.title_contener p{
+   color: #fff;
+   font-family: 'Battambang';
+   font-size: 20px;
+   
+}
+.title_contener .title__con i{
+    position: relative;
+    left: 0 ;
+    padding-left: 30px ;
+    font-size: 30px ;
+    color: #fff;
+}
+
+.footer2{
+   width:100%;
+   height:300px ;
+   background-color:red;
+   display: flex;
+   justify-content: space-between;
+}
+.box__grid{
+   width: 300px;
+   height:100%;
+   text-align: center;
+}
+.box__grid2{
+   width: 300px;
+   height:100%;
+   text-align: center;
+}
+.box__grid h3{
+   color: #fff;
+   font-family: 'Battambang';
+   font-size: 20px;
+   font-weight: bold ;
+   margin-top: 40px ;
+ 
+}
+.box__grid p{
+   position: relative;
+   color: #fff;
+   right:50px;
+   cursor: pointer;
+   
+}
+
+.box__grid2 h3{
+   margin-right: 70px ;
+   font-weight: bold ;
+   margin-top: 40px ;
+   color:#fff;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.box__grid2 p{
+   font-family: 'Battambang';
+   font-size: 15px;
+   color: #fff;
+   text-align: justify;
+   right:50px;
+   cursor: pointer;
+   
+}
+.div p{
+   font-weight: 500px ;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,
+    'Times New Roman', Times, serif;
+    margin-top: 40px ;
+   color:#fff;
+   cursor: pointer;
+}
